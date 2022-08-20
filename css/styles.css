@@ -84,6 +84,14 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  border-style: none;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #f5f4fa;
+  color: var(--accent-color);
 }
 
 /* about */
@@ -195,3 +203,40 @@ body {
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
+}
+/* portfolio */
+
+/* gallery */
+
+.pagination-btn {
+  background-color: #f5f4fa;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+
+  border-style: none;
+  cursor: pointer;
+}
+
+.pagination-btn:hover,
+.pagination-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.gallery-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+.gallery-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
