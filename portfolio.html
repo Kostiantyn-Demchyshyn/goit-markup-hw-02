@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">WebStudio</title>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- styles csss -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -20,7 +28,9 @@
             <a class="link nav-link" href="./index.html">Студія</a>
           </li>
           <li class="nav-item">
-            <a class="link nav-link" href="./portfolio.html">Портфоліо</a>
+            <a class="link nav-link active" href="./portfolio.html"
+              >Портфоліо</a
+            >
           </li>
           <li class="nav-item">
             <a class="link nav-link" href="">Контакти</a>
@@ -40,7 +50,6 @@
         </li>
       </ul>
     </header>
-
     <!-- main -->
 
     <main class="portfolio-main">
@@ -50,13 +59,13 @@
         <h1 hidden class="visually-hidden">Портфоліо</h1>
         <ul class="list gallery-pagination">
           <li class="pagination-item">
+            <button class="pagination-btn active" type="button">Усі</button>
+          </li>
+          <li class="pagination-item">
             <button class="pagination-btn" type="button">Веб-сайти</button>
           </li>
           <li class="pagination-item">
             <button class="pagination-btn" type="button">Додатки</button>
-          </li>
-          <li class="pagination-item">
-            <button class="pagination-btn" type="button">Усі</button>
           </li>
           <li class="pagination-item">
             <button class="pagination-btn" type="button">Дизайн</button>
